@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.topBar {
+  width: 100vw;
+  background-color: rgb(100, 100, 100);
+  padding: 10px 0 10px 20px;
+}
+.topBar-titulo {
+  color: rgb(230,230,230);
+  font-size: 18px;
+  word-spacing: 3px;
+}
+span{
+  color: white;
+  font-size: 26px;
+  
+} 
+
+.container{
+  max-width: 1000px;
+  text-align: center;
+}
+.first {
+  color: greenyellow;
+  font-size: 16px;
+  display: flexbox;
+  justify-items: left;
+}
+
+
+
