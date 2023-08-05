@@ -24,7 +24,6 @@ span{
 
 .container{
   max-width: 1000px;
-  text-align: center;
 }
 .first {
   color: greenyellow;
@@ -33,5 +32,18 @@ span{
   justify-items: left;
 }
 
+
+.cometInicial {
+margin: 10px 0 30px 15px;
+}
+
+.conceitoProg {
+  max-width: 800px;
+}
+
+.conceitoProg-paragrafo {
+  
+  width: 100%;
+}
 
 
