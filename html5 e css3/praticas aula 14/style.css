@@ -1,3 +1,77 @@
-* {
+body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 } 
+h1{
+  position: relative;
+  text-align: center;
+}
+h1::after {
+  content: '';
+  background-image: linear-gradient(120deg, red, greenyellow );
+  width: 90%;
+  height: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%) skew(-50deg)
+}
+
+form{
+  text-align: left;
+  display: inline-block;
+}
+
+form > div{
+  margin: 1em 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input + label {
+  display: inline;
+  margin: 0;
+}
+
+fieldset > input[type=radio]:not(:first-of-type) {
+  margin-left: 20px;
+}
+
+fieldset {
+  border-radius: 2px;
+  border: solid 1px grey;
+  margin-top: 10px;
+}
+
+input {
+  border-radius: 2px;
+  border: solid 1px grey;
+}
+
+input:focus{
+  border: grey;
+}
+
+input:required {
+  background-color: blue;
+}
+
+input[type=text]:valid,
+input[type=url]:valid,
+input[type=email]:valid,
+input[type=password]:valid{
+  background-image: url('img/checked.png');
+  background-color: greenyellow;
+  background-size: 12px;
+}
+
+
+
+
+
+
+
+
