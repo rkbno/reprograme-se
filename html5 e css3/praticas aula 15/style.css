@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: start;
+}
+
+div {
+  text-align: center;
+  margin: 50px;
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  
+  
+  display: inline-block;
+}
+.div2 {
+  width: 200px;
+  height: 200px;
+  
+  display: inline-block;
+}
+.div3 {
+  width: 200px;
+  height: 200px;
+  
+  display: inline-block;
+}
+
+figure img {
+  opacity: .5;
+}
+
+figure img:hover {
+  opacity: 1
+}

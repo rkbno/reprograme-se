@@ -52,7 +52,7 @@ input {
 }
 
 input:focus{
-  border: grey;
+ outline: 3px solid grey;
 }
 
 input:required {
@@ -63,13 +63,46 @@ input[type=text]:valid,
 input[type=url]:valid,
 input[type=email]:valid,
 input[type=password]:valid{
-  background-image: url('img/checked.png');
+  background: url('img/checked.png') no-repeat 95% 50% lightgreen;
   background-color: greenyellow;
   background-size: 12px;
 }
 
+input[type=text]:invalid,
+input[type=url]:invalid,
+input[type=email]:invalid,
+input[type=password]:invalid{
+  background: url('img/icons8-botão-de-alarme-de-incêndio-50.png') no-repeat 95% 50% lightgreen;
+  background-color: red;
+  background-size: 12px;
+}
 
+input[type=number]:in-range {
+  background-color: lightgray;
+}
 
+input[type=number]:out-of-range {
+  background-color: red;
+}
+
+input[type=text]:disabled{
+  border: dotted 2px gray;
+}
+
+input[type=checkbox]:checked + label,
+input[type=radio]:checked + label {
+  font-weight: bold;
+}
+
+input[type=submite]{
+  background-image: linear-gradient(to right, #314755 0%, #26a0da) 51%, #313755 100%;
+  margin: 10px 0;
+  padding-inline-start: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #aaa;
+  background-size: 200% auto;
+}
 
 
 

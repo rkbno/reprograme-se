@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.header {
+  width: 100vw;
+  height: 15vh;
+
+  background-color: aquamarine;
+}
+
+div.menu {
+  width: 100vw;
+  height: 7vh;
+
+  background-color: blueviolet;
+}
+
+div.section, div.content {
+  width: 25vw;
+  height: 70vh;
+  padding: 0 .1px 0px;
+  display: inline-block;
+  background-color: burlywood;
+}
+
+div.main{
+  display: inline-block;
+  
+  height: 70vh;
+  width: 49vw;
+
+  background-color: aliceblue;
+}
+
+
+div.footer {
+  width: 100vw;
+  height: 7.3vh;
+
+
+  
+  
+  background-color: grey;
+
+}
