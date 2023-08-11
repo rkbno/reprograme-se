@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.principal{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 150px;
+  right: 400px;
+
+  background-color: lightslategray;
+  opacity: 0.5;
+}
+
+.b1, .b2, .b3 {
+  width: 80px;
+  height: 80px;
+  
+  background-color: white;
+  opacity: 0.5;
+  position: absolute;
+
+}
+.b1 {
+  background-color: yellow;
+  opacity: 0.8;
+}
+
+
+.b2 {
+  background-color: blue;
+  opacity: 0.8;
+
+  top: 110px;
+  right: 110px;
+}
+
+
+.b3 {
+  background-color: red;
+  opacity: 0.8;
+  bottom: 0;
+}
+
+.footer {
+  position: fixed;
+  width: 100vw;
+  height: 15vh;
+  background-color: green;
+  opacity: 0.7;
+  bottom: 0;
+}
