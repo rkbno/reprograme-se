@@ -1,7 +1,111 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  padding: 0 20px;
+  color: white;
 }
 
 header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+
+header li a.ativo {
+  background-color: red;
+}
+
+main aside {
+  
+  background-color: antiquewhite;
+  height: calc(100vh - 50px);
+  width: 28.5vh;
+  float: left;
+  padding: 20px;
+}
+
+main article {
+  background-color: rgb(245, 245, 231);
+  height: calc(100vh - 50px);
+  width: 77vw;
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer {
   background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+main article p img {
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+}
+
+main aside ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main aside li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgb(245, 245, 231);
+  margin: 10px 0;
+  color: grey;
+  width: 100%;
+  box-shadow: 2px 2px 5px grey;
+}
+
+main aside li a:hover {
+  color: rgb(245, 245, 231);
+  background-color: grey;
+}
+
+main aside li a:active {
+  box-shadow: 0px 0px 5px grey;
+  position: relative;
+  left: 2px;
+  top: 2px;
+}
+
+main aside li a.ativo {
+  background-color: #333;
+  color: white;
 }
