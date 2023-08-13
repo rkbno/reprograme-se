@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header h1 {
+  height: 12vh;
+  width: 100vw;
+  background-color: grey;
+}
+header ul {
+  height: 8vh;
+  width: 100vw;
+  background-color: black;
+}
+
+main aside {
+  width: 27vw;
+  height: 75vh ;
+  background-color: antiquewhite;
+  float: left;
+}
+
+aside article {
+  max-width: 46vw;
+  max-height: 75vh;
+  overflow: auto;
+  float: left;
+}
+
+section nav {
+  width: 27vw;
+  height: 75vh;
+  background-color: antiquewhite;
+  float: left;
+}
