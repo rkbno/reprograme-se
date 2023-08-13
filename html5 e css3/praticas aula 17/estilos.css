@@ -14,23 +14,63 @@ header ul {
   background-color: black;
 }
 
-main aside {
+main aside ul.a1 {
   width: 27vw;
   height: 75vh ;
   background-color: antiquewhite;
   float: left;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+ul.a1>li {
+  padding: 10px;
+}
+
+ul.a1>li>a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: grey;
+  width: 100%;
+  box-shadow: 2px 2px 5px grey;
+}
+
+main aside ul.a2 {
+  width: 27vw;
+  height: 75vh ;
+  background-color: antiquewhite;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+ul.a2>li {
+  padding: 10px;
 }
 
 aside article {
   max-width: 46vw;
   max-height: 75vh;
-  overflow: auto;
+  overflow: scroll;
+  text-align: justify;
   float: left;
+  
 }
 
-section nav {
-  width: 27vw;
-  height: 75vh;
-  background-color: antiquewhite;
-  float: left;
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
+
+
