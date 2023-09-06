@@ -1,0 +1,19 @@
+
+section {
+  width: 500px;
+  display: flex;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+img {
+  width: 20%;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+
+
